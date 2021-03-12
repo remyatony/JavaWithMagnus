@@ -39,9 +39,23 @@
     <orderEntry type="library" name="Maven: org.apache.httpcomponents.client5:httpclient5:5.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents.core5:httpcore5:5.0.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents.core5:httpcore5-h2:5.0.2" level="project" />
-    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.13" level="project" />
     <orderEntry type="library" name="Maven: org.rauschig:jarchivelib:1.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-compress:1.20" level="project" />
     <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.13.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.testng:testng:7.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.beust:jcommander:1.72" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.google.inject:guice:no_aop:4.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.yaml:snakeyaml:1.21" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:poi:3.17" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-collections4:4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:poi-ooxml:3.17" level="project" />
+    <orderEntry type="library" name="Maven: com.github.virtuald:curvesapi:1.04" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:poi-ooxml-schemas:3.17" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlbeans:xmlbeans:2.6.0" level="project" />
+    <orderEntry type="library" name="Maven: stax:stax-api:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:poi-scratchpad:3.17" level="project" />
   </component>
 </module>

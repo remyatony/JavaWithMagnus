@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[the user is in https://www.google.com/]]>
+    </line>
+    <line>
+      <![CDATA[User is in https://www.amazon.com/s?k=iphone+12&ref=nb_sb_noss]]>
+    </line>
+    <line>
+      <![CDATA[Page title is Amazon.com : iphone 12]]>
+    </line>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="13674" started-at="2021-03-10T23:24:56 PST" finished-at="2021-03-10T23:25:09 PST">
+    <groups>
+    </groups>
+    <test name="TESTCASES" duration-ms="13674" started-at="2021-03-10T23:24:56 PST" finished-at="2021-03-10T23:25:09 PST">
+      <class name="day11.TC005">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:day11.TC005@6f7fd0e6]" name="openBrowser" is-config="true" duration-ms="4136" started-at="2021-03-10T23:24:56 PST" finished-at="2021-03-10T23:25:00 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="getURL()[pri:0, instance:day11.TC005@6f7fd0e6]" name="getURL" is-config="true" duration-ms="4502" started-at="2021-03-10T23:25:00 PST" finished-at="2021-03-10T23:25:04 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:day11.TC005@6f7fd0e6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-03-10T23:25:04 PST" finished-at="2021-03-10T23:25:04 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:day11.TC005@6f7fd0e6]" name="searchProduct" duration-ms="4840" started-at="2021-03-10T23:25:04 PST" finished-at="2021-03-10T23:25:09 PST">
+          <reporter-output>
+            <line>
+              <![CDATA[User is in https://www.amazon.com/s?k=iphone+12&ref=nb_sb_noss]]>
+            </line>
+            <line>
+              <![CDATA[Page title is Amazon.com : iphone 12]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:day11.TC005@6f7fd0e6]" name="closeBrowser" is-config="true" duration-ms="160" started-at="2021-03-10T23:25:09 PST" finished-at="2021-03-10T23:25:09 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- day11.TC005 -->
+      <class name="day11.TC006">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:day11.TC006@47c62251]" name="beforeClass" is-config="true" duration-ms="2471" started-at="2021-03-10T23:25:00 PST" finished-at="2021-03-10T23:25:02 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:day11.TC006@47c62251]" name="Test1" duration-ms="6048" started-at="2021-03-10T23:25:02 PST" finished-at="2021-03-10T23:25:08 PST">
+          <reporter-output>
+            <line>
+              <![CDATA[the user is in https://www.google.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:day11.TC006@47c62251]" name="afterClass" is-config="true" duration-ms="82" started-at="2021-03-10T23:25:08 PST" finished-at="2021-03-10T23:25:08 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- day11.TC006 -->
+    </test> <!-- TESTCASES -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
